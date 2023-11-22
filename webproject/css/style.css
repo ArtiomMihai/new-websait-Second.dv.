@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+}
+
+.logo_img {
+    height: 48px;
+    width: 48px;
+}
+
+.logo {
+    text-align: center;
+}
+h3 {
+    color: black;
+    text-align: center;
+    font-size: 50px;
+
+}
+.linia {
+    height: 1px;
+    width: 20px;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.list {
+    display: flex;
+    gap: 25px;
+}
+.shop {
+    height: 40px;
+    width: 175px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section_img {
+    min-height: 600px;
+    background: url(../img/pexels-ksenia-chernaya-3965545.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+
+}
+
+.wrapper {
+    padding: 20px 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 550px;
+    height: 170px;
+    margin: 0 auto;
+}
+.items_section {
+ background-color: antiquewhite;
+ padding: 30px 30px;
+}
+.block {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.items {
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    margin-top: 30px;
+}
+.items_wrapper {
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.promo_item {
+    width: 300px;
+    height: 400px;
+    border: 1px solid black;
+}
+footer {
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-around;
+    min-height: 210px;
+    background-color: black;
+}
+footer input,footer button {
+    margin-top: 15px;
+    color: white;
+    height: 30px;
+    width: 300px;
+    background: grey;
+}
+
+.footer_block1,.footer_block2,.footer_block3 {
+    text-align: center;
+}
